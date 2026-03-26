@@ -225,7 +225,7 @@ final class WorkflowValidator
         $valid = match ($this->level) {
             ValidationLevel::Strict => $errors === 0 && $warnings === 0,
             ValidationLevel::Moderate => $errors === 0,
-            ValidationLevel::Lenient => $errors === 0,
+            ValidationLevel::Lenient => true, // Accept even with errors in lenient mode
         };
 
         return [
