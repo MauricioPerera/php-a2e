@@ -164,7 +164,7 @@ $a2e->operations->register(new SendSlackMessage());
 |---------|---------|
 | [php-vector-store](https://github.com/MauricioPerera/php-vector-store) | Vector database (storage engine) |
 | [php-agent-memory](https://github.com/MauricioPerera/php-agent-memory) | Agent memory + dream consolidation (the brain) |
-| [php-agent-shell](https://github.com/MauricioPerera/php-agent-shell) | CLI execution + vector discovery (the hands) |
+| [php-agent-shell](https://github.com/MauricioPerera/php-agent-shell) *(coming soon)* | CLI execution + vector discovery (the hands) |
 | **php-a2e** | Declarative workflow execution (the orchestrator) |
 | [Neuron AI](https://github.com/neuron-core/neuron-ai) | Agent framework (the body) |
 

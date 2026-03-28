@@ -3,7 +3,19 @@
     "description": "Agent-to-Execution protocol for PHP — declarative workflow execution for AI agents",
     "type": "library",
     "license": "MIT",
-    "keywords": ["ai", "agent", "a2e", "workflow", "execution", "protocol", "declarative"],
+    "keywords": ["ai", "agent", "a2e", "workflow", "execution", "protocol", "declarative", "rag", "neuron-ai"],
+    "authors": [
+        {
+            "name": "Mauricio Perera",
+            "homepage": "https://github.com/MauricioPerera",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/MauricioPerera/php-a2e",
+    "support": {
+        "issues": "https://github.com/MauricioPerera/php-a2e/issues",
+        "source": "https://github.com/MauricioPerera/php-a2e"
+    },
     "require": {
         "php": ">=8.1"
     },
@@ -28,5 +40,6 @@
     "scripts": {
         "test": "phpunit"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
